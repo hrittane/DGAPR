@@ -12265,6 +12265,7 @@ html {
 :root {
   --blueRoyale: #01114d;
   --Gold: #eac102;
+  --Blood: #B40009
 }
 
 /* royale  */
@@ -12296,6 +12297,22 @@ html {
   color: var(--Gold);
   border-color: var(--Gold);
 }
+
+/* blood  */
+.bg-blood {
+  background-color: var(--Blood);
+}
+
+.text-blood {
+  color: var(--Blood);
+}
+
+.btn-outline-blood {
+  color: var(--Blood);
+  border-color: var(--Blood);
+}
+
+
 
 /* logo */
 
